@@ -1,5 +1,4 @@
 ﻿@namespace fateraki2._0.Components
-<h3>ProductList</h3>
 @using Microsoft.AspNetCore.Components.Web
 @using fateraki2._0.Models
 @using fateraki2._0.Services
@@ -16,12 +15,7 @@
                 <h5 class="card-title">@product.Title</h5>
             </div>
             <div class="card-footer">
-
-            <button Onclick="RazorFunction(@product.Id)"                        
-                        data-bs-toggle="modal" data-bs-target="#productModal" class="btn btn-primary">
-                    More Info
-                </button>
-                
+                <p>@product.Description</p>
             </div>
         </div>
     }
