@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\fateraki2.0.props" />
+</Project>
